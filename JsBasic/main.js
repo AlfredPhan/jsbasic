@@ -16,8 +16,11 @@
 // -Cố hiểu quan trọng hơn cố nhớ
 // - Vạch rõ mục tiêu, theo đuổi đến cùng//
 
-var name = 'Tri';
-var age = 23
-alert(name);
-alert(age);
+// var name = 'Tri';
+// var age = 23
+// alert(name);
+// alert(age);
+
+//Toán tử ++ --
+//tiền tố và hậu tố 
 
