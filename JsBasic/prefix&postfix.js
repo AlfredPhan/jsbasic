@@ -56,3 +56,34 @@ var isOdd = remain === 1;
 
 // In giá trị của biến isOdd ra cửa sổ console của trình duyệt
 console.log(isOdd) // Output: ?
+
+
+function show() {
+    var myString = '';
+    //chạy argument gán vào param
+    for (var param of arguments) {
+        myString += `${param} - `
+    }
+    console.log(myString)
+}
+show('123','456','789','101112');
+
+function hiden () {
+    var my = '';
+    for (var nice of arguments) {
+        my += `${nice} - ` 
+    }
+    console.log(my)
+}
+hiden('123','456');
+
+
+//Return trong hàm - Javascript cơ bản
+// var isConfirm = confirm('123');
+// console.log(isConfirm);
+// function sum(a,b) {
+//     return a.toString() + b.toString();
+// }
+
+// var result = sum(2,2);
+// alert(result);

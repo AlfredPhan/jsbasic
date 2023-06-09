@@ -24,3 +24,7 @@
 //Toán tử ++ --
 //tiền tố và hậu tố 
 
+
+var name = 'phan minh tri la \'abcd\'';
+
+console.log(name);
